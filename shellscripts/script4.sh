@@ -1,9 +1,9 @@
 #!/bin/bash
 echo $0
 echo "Enter the 1st number"
-read a
+a=$1
 echo "Enter th 2nd number"
-read b
+b=$2
 c=`expr $a + $b`
 echo "The sum of 2 numbers is $c"
 
